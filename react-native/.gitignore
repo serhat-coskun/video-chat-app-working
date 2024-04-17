@@ -81,7 +81,7 @@ babel-loader-cache
 .babelrc
 
 # Metro bundler cache
-/metro.config.js
+
 /metro-cache
 
 # Yarn / NPM
