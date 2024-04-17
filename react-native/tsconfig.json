@@ -1,0 +1,23 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".", // This should be set to enable path aliasing
+    "paths": {
+      "@app/*": ["./src/app/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@config/*": ["./src/config/*"],
+      "@core/*": ["./src/core/*"],
+      "@features/*": ["./src/features/*"],
+      "@navigation/*": ["./src/navigation/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@services/*": ["./src/services/*"],
+      "@theme/*": ["./src/theme/*"],
+      "@types_lib/*": ["./src/types_lib/*"],
+      "@utils/*": ["./src/utils/*"],
+    },
+    "strict": false,
+    "allowJs": true,
+  },
+  "include": ["src/**/*"]
+}
