@@ -1,0 +1,99 @@
+# Dependencies
+/node_modules
+
+# Compiled output
+/android/app/build
+/android/app/.cxx
+/android/app/src/main/assets/index.android.bundle
+/android/app/src/main/assets/index.android.bundle.meta
+/android/app/src/main/res/drawable-*
+/android/app/src/main/res/raw
+/ios/build
+/ios/Pods
+/ios/*.xcworkspace
+/ios/*.xcuserstate
+/ios/*.moved-aside
+/ios/*.hmap
+
+# Signing
+/android/app/release
+/android/app/debug
+/android/app/gradle
+/android/keystore.properties
+/android/*.jks
+/ios/*.mobileprovision
+/ios/*.app
+
+# Various IDEs and editors
+/.idea
+/.vscode
+/.DS_Store
+*.swp
+*.swo
+*~
+.project
+.externalNativeBuild
+.cproject
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Backup & Lock Files
+*~
+*.lock
+*.sw[mnopr]
+*.swp
+*.bak
+*.tmp
+*.temp
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Babel cache
+babel.config.js
+babel-loader-cache
+.babel.json
+.babelrc
+
+# Metro bundler cache
+/metro.config.js
+/metro-cache
+
+# Yarn / NPM
+yarn-error.log
+yarn.lock
+package-lock.json
+npm-debug.log*
+*.log
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+**/fastlane/readme.md
